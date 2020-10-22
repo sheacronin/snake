@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <p>move with the arrow keys.</p>
+
+    <svg id="map">
+        <rect id="snake" style="
+            fill: white; 
+            x: 145; 
+            y:145;
+        "></rect>
+
+        <circle style="
+            fill: white;
+            cx: 150;
+            cy: 100;
+            r: 5;
+        "></circle>
+    </svg>
+
+    <button onclick="changeSnakeColor()">change snake color</button>
+    <button onclick="addFood()">feed the snake</button>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
